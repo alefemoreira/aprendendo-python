@@ -2,7 +2,8 @@ def main():
     ''' teste da funcao maximo '''
     teste1 = [1, 5, 8, 9, 0]
     max = max_lista(teste1)
-    print("O máximo da lista {} é = {} na posição {}".format(teste1, max[0], max[1]))
+    print("O máximo da lista {} é = {} na posição {}"
+    .format(teste1, max[0], max[1]))
 
 
 def max_lista(lista):
