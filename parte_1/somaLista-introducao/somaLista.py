@@ -20,6 +20,6 @@ def soma_lista(lista):
     soma = 0
     for c in range(len(lista)):
         soma += lista[c]
-    return soma
 
+        return soma
 main()
